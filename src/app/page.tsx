@@ -10,13 +10,13 @@ export default function Home() {
           href={"/student"}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
-          Area do aluno
+          Área do aluno
         </Link>
         <Link
           href={"/admin"}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
-          Area do professor
+          Área do professor
         </Link>
       </div>
     </>
