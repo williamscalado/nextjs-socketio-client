@@ -4,7 +4,7 @@ export default function StudentPage() {
   return (
     <div>
       <Header isAdmin={false} />
-      Area do aluno
+      <div className="p-2">área do aluno</div>
     </div>
   );
 }

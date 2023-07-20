@@ -31,10 +31,11 @@ export default function Header({ isAdmin = true }: IProps) {
       <div className="flex justify-between w-full items-center">
         <Link href={"/"}>
           <Image
-            src="/logo-revalida.png"
+            src="/react.png"
+            className="text-yellow-50 fill-slate-50"
             alt="Mundo Revalida"
-            width={250}
-            height={50}
+            width={150}
+            height={20}
           />
         </Link>
         {!isAdmin && (
